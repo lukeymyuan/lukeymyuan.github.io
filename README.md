@@ -1,1 +1,1 @@
-visit lukeymyuan.github.io for more
+Please visit <lukeymyuan.github.io>
