@@ -1,304 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Luke Yuan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-<head>
-  <title>Luke Yuan</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/main.bundle.css">
-  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
-</head>
+				<!-- Header -->
+					<header id="header">
+						<h1>Luke (Yiming) Yuan</h1>
+						<p>Software Engineer at ELMO Cloud HR & Payroll</p>
+						<nav>
+							<ul>
+								<li><a href="https://www.linkedin.com/in/luke-yuan/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://github.com/lukeymyuan" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:luke_yuan@outlook.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-<body>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://github.com/lukeymyuan" class="icon is-large has-text-light">
-          <i class="fab fa-2x fa-github"></i>
-        </a>
-      </div>
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://may02.com.au" class="icon is-large has-text-light">
-          <i class="fas fa-2x fa-globe"></i>
-        </a>
-      </div>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <a href="https://github.com/lukeymyuan" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-github"></i>
-          </a>
-        </div>
-        <div class="navbar-item">
-          <a href="https://may02.com.au" class="icon is-large has-text-light">
-            <i class="fas fa-2x fa-globe"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <section class="hero is-primary">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns has-text-centered">
-          <div class="column">
-            <h1 class="title is-1">
-              Luke Yuan
-            </h1>
-            <h2 class="subtitle">
-              Full Stack Developer
-            </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Experience</h1>
-      <hr />
-      <div class="card">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Macquarie Group</p>
-              <p class="subtitle is-6">Software Engineer - <time datetime="2018-12">December 2018</time> - Current</p>
-            </div>
-          </div>
-          <div class="content">
-            <ul>
-              <li>Deployed Solace PubSub+ message brokers in high availability redundancy groups for fault tolerance on
-                AWS cloud</li>
-              <li>Implemented custom managed file transfer API as part of microservices</li>
-              <li>Designed and developed Angular and React web pages to help easily navigate the user environment and
-                perform operation jobs</li>
-              <li>Dockerised frontend and backend application and configured bamboo jobs</li>
-            </ul>
-            <div class="tags">
-              <span class="tag">React</span>
-              <span class="tag">Node.js</span>
-              <span class="tag">Angular</span>
-              <span class="tag">AWS</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Tuple Technologies</p>
-              <p class="subtitle is-6">Software Developer - <time datetime="2018-1">January 2018</time> - <time
-                  datetime="2018-11">November 2018</time></p>
-            </div>
-          </div>
-          <div class="content">
-            <ul>
-              <li>Implemented and updated over 10 client websites using PHP, WordPress and CSS</li>
-              <li>Designed Python and Node.js automated monitoring tools </li>
-            </ul>
-            <div class="tags">
-              <span class="tag">Node.js</span>
-              <span class="tag">Python</span>
-              <span class="tag">WordPress</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Projects</h1>
-      <hr />
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile">
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title is-4">Project Hope UNSW</p>
-                <figure class="image is-3by2">
-                  <img class="modal-trigger" data-target="project-1-modal" src="img/projecthope-screenshot.jpg">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title is-4">Housework decision maker</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-2-modal"
-                    src="img/housework-decision-maker-qrcode.jpg">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title is-4">Stock analytics</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-3-modal" src="img/stock-analytics.jpg">
-                </figure>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Contact</h1>
-      <hr />
-      <nav class="level">
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="https://github.com/lukeymyuan" class="icon is-large">
-              <i class="fab fa-2x fa-github"></i>
-            </a>
-            <p class="heading"><a href="https://github.com/lukeymyuan">github.com/lukeymyuan</a></p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="https://may02.com.au" class="icon is-large">
-              <i class="fas fa-2x fa-globe"></i>
-            </a>
-            <p class="heading"><a href="https://may02.com.au">may02.com.au</a></p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="mailto:luke.yuan@outlook.com.au" class="icon is-large">
-              <i class="fas fa-2x fa-envelope"></i>
-            </a>
-            <p class="heading"><a href="mailto:luke.yuan@outlook.com.au">luke.yuan@outlook.com.au</a></p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="https://au.linkedin.com/in/luke-yuan" class="icon is-large">
-              <i class="fab fa-2x fa-linkedin-in"></i>
-            </a>
-            <p class="heading"><a href="https://au.linkedin.com/in/luke-yuan">linkedin</a></p>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </section>
-
-  <!-- Modals -->
-  <div id="project-1-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project Hope UNSW</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-        <div id="project-1-modal-carousel" class="carousel">
-          <img src="img/projecthope-screenshot.jpg">
-        </div>
-
-        <div class="content">
-          <p>The website I developed with 4 IT subcommittees when I was in university.
-            <a href="https://unswprojecthope.org/">unswprojecthope.org</a></p>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-2-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Housework decision maker</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-        <div id="project-2-modal-carousel" class="carousel">
-          <img src="img/housework-decision-maker-qrcode.jpg">
-        </div>
-
-        <div class="content">
-          <p>Wechat Mini Program. Scan the QR Code to explore.</p>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-3-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Stock analytics</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-        <div id="project-2-modal-carousel" class="carousel">
-          <img src="img/stock-analytics.jpg">
-        </div>
-
-        <div class="content">
-          <p>A web application that sources financial stock information and uses sentiment analysis</p>
-        </div>
-
-        <!-- <div id="project-3-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div> -->
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        Developed by Luke Yuan
-      </p>
-    </div>
-  </footer>
-
-  <script src="js/bundle.js"></script>
-</body>
-
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
